@@ -338,8 +338,7 @@ def mapper_2D():
     # configure & customize the tooltip
     tooltip = {
         "html": "{dashboard_var_label}: <b>{var_formatted}</b><hr style='margin: 10px auto; opacity:0.5; border-top: 2px solid white; width:85%'>\
-                    Census Tract {GEOID} <br>\
-                    District {DISTRICTID}",
+                    Census Tract {GEOID}",
         "style": {"background": "rgba(2,43,58,0.7)",
                   "border": "1px solid white",
                   "color": "white",
@@ -432,8 +431,7 @@ def mapper_3D():
 
     tooltip = {
         "html": "Median {dashboard_var_label}: <b>{var_formatted}</b><br>Total sales: <b>{yr_built_3D}</b><hr style='margin: 10px auto; opacity:0.5; border-top: 2px solid white; width:85%'>\
-                    Census Tract {GEOID} <br>\
-                    District {DISTRICTID}",
+                    Census Tract {GEOID} <br>",
         "style": {"background": "rgba(2,43,58,0.7)",
                   "border": "1px solid white",
                   "color": "white",
